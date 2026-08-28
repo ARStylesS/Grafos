@@ -1,0 +1,16 @@
+digraph Orientado{
+    a [shape="circle" color="green"]
+    b [shape="circle" color="red"]
+    c [shape="circle" color="blue"]
+    d [shape="circle" color="yellow"]
+    e [shape="circle" color="orange"]
+    f [shape="circle" color="gray"]
+
+   a -> b
+   a -> c
+   b -> d
+   c -> d
+   c -> e
+   d -> f
+   e -> f
+}

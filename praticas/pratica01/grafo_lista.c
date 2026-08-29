@@ -157,6 +157,6 @@ void liberar_grafo_lista(GrafoLista *g)
         }
     }
 
-    free(g->adj);ls
+    free(g->adj);
     free(g);
 }

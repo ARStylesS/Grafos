@@ -16,11 +16,12 @@ return g;
 }
 
 void adicionar_aresta(GrafoLista *g, int u, int v){
-no  = g->Lista[u];
 
-if (no== NULL){
-  no = (no *)malloc(sizeof(no));
-  no ->vertice = v;
-  no ->proximo = NULL;
-}
-}
+    no  = g->Lista[u];
+No *proximo = g ->lista[u];
+No *no = (no *)malloc(sizeof(no));
+no->vertice = v;
+no->proximo = proximo;
+
+}   
+

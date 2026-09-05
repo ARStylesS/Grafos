@@ -25,7 +25,7 @@ void exibir_lista(GrafoLista *g)
             atual = atual->prox;
         }
 
-        printf(" -> NULL\n");
+        printf(" -> NULL\n" );
     }
 }
 

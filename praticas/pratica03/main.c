@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "dag.h"
 
-int main() {
+int main(void) {
     int num_vertices = 6;
     GrafoLista* g = criar_grafo(num_vertices);
 
